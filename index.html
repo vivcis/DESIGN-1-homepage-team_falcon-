@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-6">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointments body</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="script" href="script.js"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6">
+	           <h1><span style="color:#71CE47"> Your</span> Comfort,<br> Our <span style="color:#71CE47">Priority</span><span style="color: #71CE47">.</span></h1>
+             <p>Welcome to MySuite Search through our variety of exotic<br>
+             rooms to find one that matches your style and preference.</p>
+             <button type="button" class="btn btn-success" style="border-radius: 0px 8px 8px 0px;">Explore Services</button>
+</div>
+	<div class="col-sm-4">
+		<img src="images/img1.jpg" style= "border-radius: 160px"; alt="">
+	</div>
+</div><br><br><br> 
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <h6>Check In</h6>
+      <button type="button" class="btn btn-light">
+      <div class="md-form md-outline input-with-post-icon datepicker">
+  <input placeholder="Select date" type="date" id="example" class="form-control">
+  <label for="example"></label>
+</div>
+</button>
+    </div>
+
+    <div class="col-sm-3">
+      <h6>Check Out</h6>
+      <button type="button" class="btn btn-light">
+    <div class="md-form md-outline input-with-post-icon datepicker">
+       <input placeholder="Select date" type="date" id="example" class="form-control">
+       <label for="example"></label>
+       <i class="fas fa-calendar input-prefix" tabindex=0></i>
+</div>
+</button>
+    </div>
+
+    <div class="col-sm-2 my-col">
+      <h6>Adult</h6><br>
+      <button type="button" class="btn btn-light">
+        <input type="number" min="1" max="100">
+      </button>
+    </div>
+
+    <div class="col-sm-2 my-col">
+      <h6>Children</h6><br>
+      <button type="button" class="btn btn-light">
+        <input type="number" min="1" max="100">
+      </button>
+    </div>
+    
+    <div class= "col-sm-2"><br><br>
+      <button type="button" class="btn btn-success">Confirm</button>
+    </div>
+  </div>
+</div><br><br>
+
+<!-- second part of the homepage -->
+<h2>About MySuite</h2><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7">
+      <p>
+        MySuite is the most preferred hotel in eastern part of nigeria, Africa and it's all about the right mix! Located in the heart of Victoria Island and shielded from the hustle and bustle of the Lagos metropolis, we offer our corporate clients and walk in guests a perfect blend of relaxation, activities, and African tradition delicately infused to meet the highest international standards.<br><br>
+        Overlooking the Eko Atlantic City and Ocean, it is just a 10-minute drive to the City Centre and only 45minutes away from the Airport. Our hotels are designed for your comfort and convenience. Your security is our primary concern and you'll find our customer care second to non.
+      </p><br><br>
+       <button type="button" class="btn btn-success" style="width: 140px; border-radius: 0px 8px 8px 0px;">Read More</button>
+    </div>
+
+  <div class="col-sm-5">
+    <img src="images/img2.jpg" style="border-radius: 30px"; alt="">
+  </div>
+</div>
+</div><br><br>
+
+<!-- third section -->
+<h2>Facilities & Services</h2>
+<div class="jumbotron jumbotron-fluid">
+  <!-- <div id="demo" class="carousel slide" data-ride="carousel"> -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="images/trainings.png" style="border-radius: 30px; width: 50px;
+    height: 50px"; alt="">
+    <h6>Fully Equipped Gym</h6>
+    <p style="color: #71CE47";>Explore</p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="images/airport.png" style="border-radius: 30px; width: 50px;
+    height: 50px"; alt="">
+    <h6>Airport transfers</h6>
+    <p style="color: #71CE47">Explore</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="images/wifi.png" style="border-radius: 30px; width: 50px;
+    height: 50px"; alt="">
+    <h6>Complimentary WiFi</h6>
+    <p style="color: #71CE47">Explore</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="images/beauty_spa.png" style="border-radius: 30px; width: 50px;
+    height: 50px"; alt="">
+    <h6>Beauty Spa</h6>
+    <p style="color: #71CE47">Explore</p>
+    </div><br><br>
+
+    <!-- Left and right controls -->
+  <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev" style="color: #71CE47">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next" style="color: #71CE47">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div> -->
+  </div>
+</div>
+</div>
+<h2>Rooms & Rates</h2>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/hotel1.jpg" alt="" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Blackberry Room</h3>
+        <p>56m Wide<br>Double bed type<br>456.00</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/hotel2.jpg" alt="" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Mini Cooper Room</h3>
+        <p>56m Wide<br>Double bed type<br>$456.00</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/hotel3.jpg" alt="" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>King's Room</h3>
+        <p>56m Wide<br>Double bed type<br>$456.00</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div><br>
+
+<!-- last section -->
+<h2>More Rooms</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="images/hotel4.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="images/hotel5.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="images/hotel6.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="images/hotel7.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="images/hotel8.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="images/hotel9.jpg" alt="" style="height: 250px; width: 350px";>
+    </div>
+  </div>
+</div>
+     </body>
+</html>

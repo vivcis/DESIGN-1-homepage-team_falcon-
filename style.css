@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    color: #606060;
+    background-color: #ffffff;
+    font-family: Poppins;
+    padding: 15px;
+    margin: 30px;
+}
+h1{
+	/*font-size: 57px;*/
+	line-height: 124.9%;
+	letter-spacing: 0.04em;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+}
+#pic{
+	 /*background:url(...joao-lucio-gomes-jfm_2eKOwNQ-unsplash.jpg);*/
+     transform: rotate(-4.63deg);
+     border: 1px ridge green;
+     border-radius: 14px;
+ }
+ .btn-success{
+    background-color:#71CE47;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px ridge none;
+    border-radius: 5px;
+ }
+ .btn-light{
+    background-color: #F4F4F4;
+    border-radius: 9px;
+    width: 195.74px;
+    color: #828282;
+ }
+ .my-col{
+    width: 100px;
+    height: 76px;
+ }
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
